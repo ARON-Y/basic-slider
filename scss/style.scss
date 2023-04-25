@@ -24,12 +24,14 @@ a {
   border: 5px solid #000;
   margin: 100px auto;
   position: relative;
+  overflow: hidden;
 
   .panel {
     width: 500%; // 2000px
     height: 100%;
     margin-left: 0px;
     //이동하는 방법을 위해 코딩
+    transition: all 0.5s;
 
     li {
       width: 20%;

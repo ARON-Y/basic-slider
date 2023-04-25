@@ -26,11 +26,13 @@ a {
   border: 5px solid #000;
   margin: 100px auto;
   position: relative;
+  overflow: hidden;
 }
 #slider .panel {
   width: 500%;
   height: 100%;
   margin-left: 0px;
+  transition: all 0.5s;
 }
 #slider .panel li {
   width: 20%;
